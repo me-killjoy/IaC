@@ -22,6 +22,9 @@ Commands
 
 
 #Changing the landing page index.html in /var/www/html
+# change permission to 755 /var/www/html
+
+sudo su chmod 755 /var/www/html
 #Parameters
 Export NEWNAME=REX
 Export CLOUD=AZURE
