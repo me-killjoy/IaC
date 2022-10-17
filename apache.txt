@@ -23,11 +23,10 @@ Commands
 
 #Changing the landing page index.html in /var/www/html
 #Parameters
-Export NEWNAME=Rex
-Export Could=Azure
-Export Linux=Ubuntu
+Export NEWNAME=REX
+Export CLOUD=AZURE
+Export LINUX=UBUNTU
 
 "Hello y'all. My name is " $NEWNAME" my favorite cloud provider is " $Cloud " or whichever that works. ;) and my Linux distro is " $LINUX". > index.html 
 
-#Statement
-"Hello World!
+
