@@ -1,1 +1,21 @@
-First
+Commands 
+• Install Apache.
+	sudo apt update
+	sudo apt install apache2
+• Adjust firewall
+	sudo ufw app list
+• Leave Apache Restricted 
+	sudo ufw allow 'Apache'
+• Verify change
+	sudo ufw status
+• If it shows the firewall as inactive
+	sudo ufw enable
+• Checking web server
+	sudo systemctl status apache2
+	Test the server is up and running by viewing it on page.
+• Get the IP address or computer name.
+	Hostname
+	 = rex-Virtualbox
+	Hostname -I 
+	  = IP address 127.0.0.1
+• Enter in web browser http://your_Server_IP or http://yourcomputername
