@@ -15,7 +15,7 @@ Commands
 	Test the server is up and running by viewing it on page.
 • Get the IP address or computer name.
 	Hostname
-	 = rex-Virtualbox
+	 = STS
 	Hostname -I 
 	  = IP address 127.0.0.1
 • Enter in web browser http://your_Server_IP or http://yourcomputername
