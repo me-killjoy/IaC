@@ -1,0 +1,55 @@
+#Commands 
+#Install Apache.
+	sudo apt update
+	sudo apt install apache2
+
+#Adjust firewall
+	sudo ufw app list
+
+#Leave Apache Restricted 
+	sudo ufw allow 'Apache'
+
+#Verify change
+	sudo ufw status
+
+#If it shows the firewall as inactive
+	sudo ufw enable
+
+#Checking web server
+	sudo systemctl status apache2
+	
+#Test the server is up and running by viewing it on page.
+
+#Get the IP address or computer name.
+	hostname #computer name.
+	
+	hostname -i #ip address
+	 
+#Enter in web browser http://your_Server_IP or http://yourcomputername
+
+#Delete landing page. 
+
+sudo su /var/www/html
+rm index.html
+
+#Create a new index.html
+echo index.html
+
+#Changing the landing page index.html in /var/www/html
+# change permission to 755 /var/www/html
+
+chmod 755 index.html
+
+#enviromental variables	
+Export NAME="Rex"
+Export CLOUD="Azure"
+Export HOST="STS"
+
+#New Message in landing page.
+# Echo writes the arugument
+# >> tells it the file you want the arugument/message to go to
+# The double quotes cause linux hates spaces. :(
+
+Echo "Hello World! My name is $NAME and my favorite cloud service is $ClOUD. I am working off my Ubuntu distro called $HOST." >> index.html
+
+
