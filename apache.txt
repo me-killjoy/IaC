@@ -51,5 +51,3 @@ Export HOST="STS"
 # The double quotes cause linux hates spaces. :(
 
 Echo "Hello World! My name is $NAME and my favorite cloud service is $ClOUD. I am working off my Ubuntu distro called $HOST." >> index.html
-
-
